@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ahmed ElSayed</h1>
 <h3 align="center">A passionate frontend developer from Belgium :belgium:, I like coding it makes me able to buy coffee which makes me happy.</h3>
 
-- 🔭 I’m currently working in **Xeikon**
+- 🔭 I’m currently working in **Xeikon** <img src='https://www.mdv-group.com/typo3temp/_processed_/csm_XeikonLogo_01_a1500cbd17.png' height="20" />
 
 - 📫 How to reach me **ahmedadelzakaria@hotmail.com**
 
