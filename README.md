@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ahmed ElSayed</h1>
-<h3 align="center">A passionate Software Engineer from Egypt :egypt: but I currently live in Belgium :belgium:, I like coding it makes me able to buy coffee which makes me happy.</h3>
+<h3 align="center">A passionate Software Engineer from Egypt :egypt: I live in Belgium :belgium:, I like coding it makes me able to buy coffee which makes me happy.</h3>
 
 - 🔭 I’m currently working at  <img src='https://7755087.fs1.hubspotusercontent-na1.net/hub/7755087/hubfs/intix-logo-white.png?width=100&name=intix-logo-white.png' height="20" />
 
