@@ -101,14 +101,14 @@ const Footer = () => {
 
                   <div className="leading-[20px]">
                     <h2 className="text-gray-200 font-[500] text-[18px]">
-                      Abdelghany
+                      Ahmed
                     </h2>
                     <p className="text-gray-400 text-[14px] font-[500]">Personal</p>
                   </div>
                 </div>
               </div>
 
-                      <div className="text-gray-400 text-[14px]">Copyright {year} developed by Abdelghany Ayman </div>
+                      <div className="text-gray-400 text-[14px]">Copyright {year} developed by Ahmed ElSayed </div>
             </div>
           </div>
         </div>
