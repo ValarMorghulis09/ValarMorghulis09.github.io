@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ahmed ElSayed</h1>
 <h3 align="center">A passionate Software Engineer from Egypt :egypt: I live in Belgium :belgium:, I like coding it makes me able to buy coffee which makes me happy.</h3>
 
-- 🔭 I’m currently working at  DPG Media
 
 - 📫 How to reach me **ahmedadelzakaria@hotmail.com**
 
