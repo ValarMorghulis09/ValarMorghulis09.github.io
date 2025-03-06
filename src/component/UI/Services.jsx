@@ -20,7 +20,8 @@ const Services = () => {
             <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">
               <div className="relative text-gray-700 antialiased text-sm font-semibold">
                 {/* =====================vertical line running through the middle============================= */}
-                <div className="hidden absolute w-1 sm:block bg-indigo-300 h-full left-1/2 transform-translate-x-1/2"></div>
+                <div
+                    className="hidden absolute w-1 sm:block bg-indigo-300 h-full left-1/2 transform-translate-x-1/2"></div>
                 {/* =======================left card========================= */}
                 <div className="mt-6 sm:mt-0 sm:mb-12">
                   <div className="flex items-center flex-col sm:flex-row">
@@ -37,17 +38,18 @@ const Services = () => {
                           <p className="text-[15px] text-smallTextColor  group-hover:text-white group-hover:font-[500] leading-7">
                             <h2>Created many websites and projects using modern frameworks and libraries. </h2>
                             <ul>
-                              <li><b>React 4+</b> years</li>
-                              <li> <b>Angular 2+</b> years</li>
-                              <li><b>Vue 1+</b>   years</li>
+                              <li><b>React 6+</b> years</li>
+                              <li><b>Angular 2+</b> years</li>
+                              <li><b>Vue 1+</b> years</li>
                             </ul>
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -trarnslate-y-4 sm:translate-y-0 flex items-center justify-center">
+                    <div
+                        className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -trarnslate-y-4 sm:translate-y-0 flex items-center justify-center">
                       <figure>
-                        <img src={FrontendIng} alt="" />
+                        <img src={FrontendIng} alt=""/>
                       </figure>
                     </div>
                   </div>
@@ -69,17 +71,18 @@ const Services = () => {
                           <p className="text-[15px] text-smallTextColor  group-hover:text-white group-hover:font-[500] leading-7">
                             <h2>Created complex projects using modern frameworks and libraries. </h2>
                             <ul>
-                              <li><b>Java 3+</b> years</li>
-                              <li> <b>NodeJs 4+</b> years</li>
-                              <li><b>Java Spring 2+</b>   years</li>
+                              <li><b>Java 6+</b> years</li>
+                              <li><b>Java Spring 6+</b> years</li>
+                              <li><b>NodeJs 4+</b> years</li>
                             </ul>
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -trarnslate-y-4 sm:translate-y-0 flex items-center justify-center">
+                    <div
+                        className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -trarnslate-y-4 sm:translate-y-0 flex items-center justify-center">
                       <figure>
-                        <img src={BackendImg} alt="" />
+                        <img src={BackendImg} alt=""/>
                       </figure>
                     </div>
                   </div>
@@ -96,26 +99,54 @@ const Services = () => {
                             className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                         >
                           <h3 className="text-primaryColor font-[700] mb-3  group-hover:text-white group-hover:font-[600] text-xl ">
-                            Cloud Development
+                            Devops
                           </h3>
                           <p className="text-[15px] text-smallTextColor  group-hover:text-white group-hover:font-[500] leading-7">
-                            <h2>Experienced with <b>AWS</b> and <b>Microsoft Azure</b> cloud services</h2>
-                            <ul>
-                              <li><b>Elastic beans +1</b> years</li>
-                              <li><b>S3 Storage +3</b> years</li>
-
-                            </ul>
+                            <h2>Experienced with <b>Docker</b> +2 years</h2>
+                            <h2>Experienced with <b>K8s</b> +1,5 years</h2>
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -trarnslate-y-4 sm:translate-y-0 flex items-center justify-center">
+                    <div
+                        className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -trarnslate-y-4 sm:translate-y-0 flex items-center justify-center">
                       <figure>
-                        <img src={UiImg} alt="" />
+                        <img src={UiImg} alt=""/>
                       </figure>
                     </div>
                   </div>
                 </div>
+                {/* =======================right card========================= */}
+                <div className="mt-6 sm:mt-0 sm:mb-12">
+                  <div className="flex items-center flex-col sm:flex-row">
+                    <div className="flex justify-end w-full mx-auto items-center">
+                      <div className="w-full sm:w-1/2 sm:pl-8">
+                        <div
+                            data-aos="fade-left"
+                            data-aos-delay="50"
+                            data-aos-duration="1300"
+                            className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
+                        >
+                          <h3 className="text-primaryColor font-[700] mb-3  group-hover:text-white group-hover:font-[600] text-xl ">
+                            Cloud Development
+                          </h3>
+                          <p className="text-[15px] text-smallTextColor  group-hover:text-white group-hover:font-[500] leading-7">
+                            <h2>Experienced with <b>AWS</b> cloud services +4 years</h2>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                        className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -trarnslate-y-4 sm:translate-y-0 flex items-center justify-center">
+                      <figure>
+                        <img src={BackendImg} alt=""/>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+
+
 
               </div>
             </div>

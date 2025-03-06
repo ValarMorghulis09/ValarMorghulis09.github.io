@@ -1,7 +1,9 @@
 import React from "react";
 import heroImg from "../../assest/images/Me.jpg";
 import CountUp from "react-countup";
-const Hero = () => {
+import {MeProps} from "../Types/MeProps.ts";
+
+const Me = (props:MeProps) => {
   return (
     <>
       <section className="pt-0" id="about">
@@ -21,7 +23,7 @@ const Hero = () => {
                 data-aos-duration="1500"
                 className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
               >
-                I'm Ahmed ElSayed <br /> Software Engineer
+                I'm Ahmed ElSayed <br /> Senior Software Engineer
               </h1>
 
               <div
@@ -60,36 +62,15 @@ const Hero = () => {
                 <span className="text-smallTextColor text-[15px] font-[600]">
                   Follow me
                 </span>
+
                 <span>
                   <a
-                    href="#youtube"
-                    className="text-smallTextColor text-[18px] font-[600]"
-                  >
-                    <i className="ri-youtube-line"></i>
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="#github"
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                    href="https://github.com/ValarMorghulis09"
                     className="text-smallTextColor text-[18px] font-[600]"
                   >
                     <i className="ri-github-fill"></i>
-                  </a>
-                </span>   
-                <span>
-                  <a
-                    href="#facebook"
-                    className="text-smallTextColor text-[18px] font-[600]"
-                  >
-                    <i className="ri-facebook-line"></i>
-                  </a>
-                </span>
-                <span>
-                  <a
-                    href="#instagram"
-                    className="text-smallTextColor text-[18px] font-[600]"
-                  >
-                    <i className="ri-instagram-line"></i>
                   </a>
                 </span>
               </div>
@@ -107,19 +88,19 @@ const Hero = () => {
             {/* ================ hero content raight ============ */}
             <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-xol md:justify-end md:text-end">
               <div className="mb-10">
-                <h2 className="text-headingColor font-[700] text-[32px]"><CountUp start={0} end={5} duration={2} suffix="+"/></h2>
+                <h2 className="text-headingColor font-[700] text-[32px]"><CountUp start={0} end={props.yearsOfExperience} duration={2} suffix="+"/></h2>
                 <h4 className="text-headingColor font-[700] text-[18px]">Years of Experience</h4>
               </div>
               <div className="mb-10">
-                <h2 className="text-headingColor font-[700] text-[32px]"><CountUp start={0} end={100} duration={2} suffix="%"/></h2>
-                <h4 className="text-headingColor font-[700] text-[18px]">Success Rate</h4>
+                <h2 className="text-headingColor font-[700] text-[32px]"><CountUp start={0} end={4} duration={2} suffix=""/></h2>
+                <h4 className="text-headingColor font-[700] text-[18px]">Companies Worked For</h4>
               </div>
               <div className="mb-10">
-                <h2 className="text-headingColor font-[700] text-[32px]"><CountUp start={0} end={30} duration={2} suffix="+"/></h2>
+                <h2 className="text-headingColor font-[700] text-[32px]"><CountUp start={0} end={15} duration={2} suffix="+"/></h2>
                 <h4 className="text-headingColor font-[700] text-[18px]">Happy Clients</h4>
               </div>
               <div className="mb-10">
-                <h2 className="text-headingColor font-[700] text-[32px]"><CountUp start={0} end={65} duration={2} suffix="+"/></h2>
+                <h2 className="text-headingColor font-[700] text-[32px]"><CountUp start={0} end={14} duration={2} suffix="+"/></h2>
                 <h4 className="text-headingColor font-[700] text-[18px]">Projects Completed</h4>
               </div>
             </div>
@@ -132,4 +113,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Me;

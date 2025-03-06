@@ -20,9 +20,9 @@ const Footer = () => {
             </div>
             <div className="w-full sm:w-1/2">
               <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-                officiis expedita minima ex velit tempora, explicabo eum illum
-                qui? Qui?
+                {/*Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe*/}
+                {/*officiis expedita minima ex velit tempora, explicabo eum illum*/}
+                {/*qui? Qui?*/}
               </p>
               <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
                 <span className="text-gray-300 font-[600] text-[15px]">
@@ -30,36 +30,15 @@ const Footer = () => {
                 </span>
                 <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                   <a
-                    href="#githup"
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                    href="https://github.com/ValarMorghulis09"
                     className="text-gray-300 font-[500] text-[18px]"
                   >
                     <i className="ri-github-line"></i>
                   </a>
                 </span>
-                <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                  <a
-                    href="#youtube"
-                    className="text-gray-300 font-[500] text-[18px]"
-                  >
-                    <i className="ri-youtube-line"></i>
-                  </a>
-                </span>
-                <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                  <a
-                    href="#facebook"
-                    className="text-gray-300 font-[500] text-[18px]"
-                  >
-                    <i className="ri-facebook-line"></i>
-                  </a>
-                </span>
-                <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                  <a
-                    href="#instagram"
-                    className="text-gray-300 font-[500] text-[18px]"
-                  >
-                    <i className="ri-instagram-line"></i>
-                  </a>
-                </span>
+
               </div>
             </div>
           </div>

@@ -3,12 +3,15 @@ import Aos from 'aos';
 import './App.css';
 import Header from './component/Header/Header';
 import Footer from './component/Footer/Footer';
-import Hero from './component/UI/Hero';
+import Me from './component/UI/Me';
 import Services from './component/UI/Services';
 import Portoflio from './component/UI/Portoflio';
 import Modal from './component/UI/Modal';
 import Contact from './component/UI/Contact';
 function App() {
+
+  const yearsOfExperienceSinceGraduation  = (new Date).getFullYear() - 2018;
+
   useEffect(()=>{
     Aos.init()
   },[])
@@ -18,7 +21,7 @@ function App() {
 <Header/>
 
 <main>
-  <Hero/>
+  <Me yearsOfExperience={yearsOfExperienceSinceGraduation} />
   <Services/>
   <Portoflio/>
   <Contact/>
